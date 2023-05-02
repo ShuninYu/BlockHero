@@ -19,3 +19,42 @@ html {
 .homebutton:hover {
     opacity: 1;
 }
+
+.wall {
+    background-image: url(../image/wall.png);
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.dbutton {
+    margin: 0 20px;
+}
+
+.ditem {
+    padding-left: 100px;
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.ditem h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+
+.ditem button {
+    border: rgb(30, 70, 140) solid;
+    border-radius: 20px;
+    margin-top: 60px;
+    font-size: 20px;
+    width: 150px;
+    height: 60px;
+    color: rgb(255 , 255 , 255);
+    background-color: rgba(0 , 0 , 0 , 0);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.ditem button:hover {
+    color: rgb(0, 150, 250);
+    background-color: rgba(10 , 20 , 40 , 0.5);
+}

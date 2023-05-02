@@ -12,7 +12,15 @@
 
 html {
     min-width: 1000px;
-    background-color: rgb(11 , 39 , 59);
+    background-color: rgb(10 , 20 , 40);
+}
+
+footer {
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+    color: rgb(20, 40, 80);
 }
 
 .sticky {
