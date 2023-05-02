@@ -1,0 +1,42 @@
+@charset "uft-8";
+/* css document */
+
+* {
+    color: rgb(255 , 255 , 255);
+    font-weight: lighter;
+}
+
+body{
+    text-align: center;
+}
+
+.titleimg {
+    display: inline-block;
+    background-image: url(image/blockherointro2.png);
+    width: 80vw;
+    height: 40vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.download {
+    position: absolute;
+    z-index: 10;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    top: 31.5vw;
+    left: 46.8vw;
+    background: none;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4vw;
+    color: rgba(255 , 255 , 255 , 0.6);
+    transition: 0.5s;
+}
+
+.download:hover {
+    color: rgba(255 , 255 , 255 , 1);
+}

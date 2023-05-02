@@ -1,0 +1,17 @@
+@charset "uft-8";
+/* css document */
+
+.homebutton {
+    position: absolute;
+    z-index: 10;
+    top: 1vw;
+    left: 1vw;
+    background: none;
+    border: none;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.homebutton:hover {
+    opacity: 1;
+}
