@@ -1,11 +1,15 @@
 @charset "uft-8";
 /* css document */
 
+html {
+    min-width: 1000px;
+}
+
 .homebutton {
     position: absolute;
     z-index: 10;
-    top: 1vw;
-    left: 1vw;
+    top: 1em;
+    left: 1em;
     background: none;
     border: none;
     opacity: 0.5;
