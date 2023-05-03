@@ -1,2 +1,80 @@
 @charset "uft-8";
 /* css document */
+
+.bigpic{
+    width: 400px;
+    margin: 80px auto;
+}
+
+.bigpic img {
+    width: 100%;
+}
+
+.itemintro {
+    width: 1000px;
+    height: 380px;
+    background-image: url(../image/itembox.png);
+    margin: 60px auto;
+    text-align: center;
+    position: relative;
+}
+
+.itemintro img {
+    width: 128px;
+    margin: 16px 0 auto auto;
+}
+
+.itemintro p {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.itemintro p2 {
+    line-height: 40px;
+}
+
+.itemintro .xleft {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 320px;
+}
+
+.itemintro .xleft h1 {
+    font-size: 40px;
+}
+
+.itemintro .xright {
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    width: 320px;
+}
+
+.itemintro .xright h1 {
+    font-size: 30px;
+}
+
+.r h1{
+    color: rgb(30, 230, 130);
+}
+
+.r h2{
+    color: rgb(30, 230, 130);
+}
+
+.sr h1{
+    color: rgb(130 , 30 , 230)
+}
+
+.sr h2{
+    color: rgb(130 , 30 , 230)
+}
+
+.ssr h1{
+    color: rgb(230 , 130 , 30);
+}
+
+.ssr h2{
+    color: rgb(230 , 130 , 30);
+}
