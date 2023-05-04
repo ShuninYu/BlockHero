@@ -1,9 +1,27 @@
 @charset "uft-8";
 /* css document */
 
+.header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header .headertext {
+    position: absolute;
+    top: 200px;
+    display: flex;
+}
+
+.header .headertext h1 {
+    font-size: 100px;
+}
+
 .bigpic{
     width: 400px;
-    margin: 80px auto;
+    text-align: center;
 }
 
 .bigpic img {
