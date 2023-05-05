@@ -89,6 +89,7 @@
     justify-content: center;
     align-items: center;
     border: rgb(20, 40, 80) solid;
+    flex-wrap: wrap;
 }
 
 .enemyintro h1 {
