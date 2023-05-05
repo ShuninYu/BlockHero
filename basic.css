@@ -23,6 +23,14 @@ footer {
     color: rgb(20, 40, 80);
 }
 
+.bar {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(20, 40, 80);
+}
+
 .sticky {
     position: sticky;
     top: 0px;

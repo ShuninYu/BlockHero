@@ -1,6 +1,14 @@
 @charset "uft-8";
 /* css document */
 
+.line {
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 2px;
+    height: 600px;
+    background-color: rgb(20, 40, 80);
+}
+
 .header {
     display: flex;
     justify-content: center;
@@ -71,6 +79,31 @@
 
 .itemintro .xright h1 {
     font-size: 30px;
+}
+
+.enemyintro {
+    min-width: 1000px;
+    margin: 60px 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: rgb(20, 40, 80) solid;
+}
+
+.enemyintro h1 {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.enemyintro h2 {
+    font-size: 28px;
+    padding: 5px;
+}
+
+.enemyintro p {
+    font-size: 20px;
+    line-height: 33px;
 }
 
 .r h1{
