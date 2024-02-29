@@ -29,6 +29,26 @@
                         </div>
                     </div>
                 </div>
+                <div id = "gotop" alt="gotop"></div>
+                <script>
+                    window.addEventListener("scroll",handle)
+        
+                    function handle(){
+                        var oTop = document.body.scrollTop||document.documentElement.scrollTop
+                        if(oTop>=80){
+                            gotop.style.display = "block";
+                        }else{
+                            gotop.style.display = "none";
+                        }
+        
+                        gotop.onclick = function(){
+                            window.scrollTo({
+                                top:0,
+                                behavior:"smooth"
+                            })
+                        }
+                    }
+                </script>
                 <div class="intro">
                     <h1>一场没有退路的冒险！</h1>
                     <h2>BlockHero是一款HD-2D横版卷轴游戏。扮演一名勇敢的冒险者深入怪物地牢，在悬浮的方块上勇往直前。你所经过的方块最终都会消失坠落，所以这场冒险没有退路可言！</h2>

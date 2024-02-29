@@ -25,6 +25,26 @@
                         </div>
                     </div>
                 </div>
+                <div id = "gotop" alt="gotop"></div>
+                <script>
+                    window.addEventListener("scroll",handle)
+        
+                    function handle(){
+                        var oTop = document.body.scrollTop||document.documentElement.scrollTop
+                        if(oTop>=80){
+                            gotop.style.display = "block";
+                        }else{
+                            gotop.style.display = "none";
+                        }
+        
+                        gotop.onclick = function(){
+                            window.scrollTo({
+                                top:0,
+                                behavior:"smooth"
+                            })
+                        }
+                    }
+                </script>
                 
                 <div style="border: lightskyblue solid; background-color: darkblue; margin: 20px auto; padding: 20px; max-width: 500px; text-align: center;">
                     <h1 style="font-size: 40px;">⚠️注意⚠️</h1>

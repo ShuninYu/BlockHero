@@ -26,6 +26,26 @@
                         </div>
                     </div>
                 </div>
+                <div id = "gotop" alt="gotop"></div>
+                <script>
+                    window.addEventListener("scroll",handle)
+        
+                    function handle(){
+                        var oTop = document.body.scrollTop||document.documentElement.scrollTop
+                        if(oTop>=80){
+                            gotop.style.display = "block";
+                        }else{
+                            gotop.style.display = "none";
+                        }
+        
+                        gotop.onclick = function(){
+                            window.scrollTo({
+                                top:0,
+                                behavior:"smooth"
+                            })
+                        }
+                    }
+                </script>
                 <div class="wall">
                     <div style="padding: 50px 0; text-align: center;">
                         <h1>下载BlockHero</h1>

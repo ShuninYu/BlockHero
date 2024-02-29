@@ -95,3 +95,22 @@ footer {
 .download:hover {
     color: rgb(255, 230, 0);
 }
+
+/*到顶部↓*/
+#gotop{
+    position: fixed;
+    display: none;
+    right: 20px;
+    bottom: 20px;
+    z-index: 11;
+    width: 72px;
+    height: 72px;
+    background-image: url("image/BlockHeroBackToTop.svg");
+    background-size: contain;
+    image-rendering: pixelated;
+}
+
+#gotop:hover{
+    cursor: pointer;
+}
+/*到顶部↑*/
